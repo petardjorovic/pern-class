@@ -46,3 +46,5 @@ To learn more about **Refine**, please check out the [Documentation](https://ref
 ## License
 
 MIT
+
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/petardjorovic/pernApp?utm_source=oss&utm_medium=github&utm_campaign=petardjorovic%2FpernApp&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
