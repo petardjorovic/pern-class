@@ -13,7 +13,7 @@ function UploadWidget({value = null, onChange, disabled = false}) {
     }, [value])
 
     useEffect(() => {
-        onChange.current = onChange;
+        onChangeRef.current = onChange;
     }, [onChange])
 
     useEffect(() => {
