@@ -64,7 +64,7 @@ const getEnvVar = (key: string): string => {
 };
 
 // export const CLOUDINARY_UPLOAD_URL = getEnvVar("VITE_CLOUDINARY_UPLOAD_URL");
-// export const CLOUDINARY_CLOUD_NAME = getEnvVar("VITE_CLOUDINARY_CLOUD_NAME");
+export const CLOUDINARY_CLOUD_NAME = getEnvVar("VITE_CLOUDINARY_CLOUD_NAME");
 export const BACKEND_BASE_URL = getEnvVar("VITE_BACKEND_BASE_URL");
 
 // export const BASE_URL =  import.meta.env.VITE_API_URL;
@@ -73,7 +73,7 @@ export const BACKEND_BASE_URL = getEnvVar("VITE_BACKEND_BASE_URL");
 
 // export const REFRESH_TOKEN_URL = `${BASE_URL}/refresh-token`;
 //
-// export const CLOUDINARY_UPLOAD_PRESET = getEnvVar("VITE_CLOUDINARY_UPLOAD_PRESET");
+export const CLOUDINARY_UPLOAD_PRESET = getEnvVar("VITE_CLOUDINARY_UPLOAD_PRESET");
 
 export const teachers = [
     {
