@@ -185,8 +185,8 @@ const ClassesList = () => {
                             </SelectContent>
                         </Select>
 
-                    </div>
                         <CreateButton resource="classes" />
+                    </div>
                 </div>
             </div>
 
