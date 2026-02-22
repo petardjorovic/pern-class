@@ -88,7 +88,8 @@ const options : CreateDataProviderOptions = {
             if(!response.ok) throw await buildHttpError(response);
             const json: GetOneResponse = await response.json();
 
-            return json.data ?? {};
+            if (!json.data) throw { message: 'No data returned', statusCode: 404 };
+            return json.data;
         }
     }
 }

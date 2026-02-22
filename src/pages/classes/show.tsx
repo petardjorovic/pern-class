@@ -78,7 +78,7 @@ function Show() {
 
                             <div>
                                 <p>{teacherName}</p>
-                                <p>{teacher?.email}</p>
+                                {teacher?.email && <p>{teacher.email}</p>}
                             </div>
 
                         </div>
